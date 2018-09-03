@@ -1,0 +1,60 @@
+{
+  "name": "personalWwebsite",
+  "description": "Firstname´s personal website",
+  "version": "0.1.0",
+  "author": "Firstname Lastname",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/free-solid-svg-icons": "^5.3.1",
+    "@fortawesome/react-fontawesome": "^0.1.2",
+    "babel-plugin-styled-components": "^1.6.0",
+    "bowser": "^2.0.0-beta.1",
+    "gatsby": "^1.9.277",
+    "gatsby-image": "^1.0.55",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-manifest": "^1.0.27",
+    "gatsby-plugin-netlify": "^1.0.21",
+    "gatsby-plugin-offline": "^1.0.18",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-react-next": "^1.0.11",
+    "gatsby-plugin-sharp": "^1.6.48",
+    "gatsby-plugin-sitemap": "^1.2.25",
+    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-remark-copy-linked-files": "^1.5.37",
+    "gatsby-remark-images": "^1.5.67",
+    "gatsby-remark-prismjs": "^2.0.5",
+    "gatsby-remark-smartypants": "^1.4.12",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-remark": "^1.7.44",
+    "grid-styled": "^5.0.2",
+    "js-cookie": "^2.2.0",
+    "lazysizes": "^4.1.1",
+    "moment": "^2.22.2",
+    "prismjs": "^1.15.0",
+    "react-cookie-consent": "^1.7.0",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.4.5",
+    "styled-system": "^3.0.2",
+    "typography": "^0.16.17"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2"
+  },
+  "resolve": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0"
+  }
+}
